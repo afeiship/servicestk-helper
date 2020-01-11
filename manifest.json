@@ -23,8 +23,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.microsoftonline.com/*",
-        "*://*.microsoft.com/*"
+        "*://servicestk.microsoft.com/*"
       ],
       "js": [
         "lib/zepto/jquery.min.js",
